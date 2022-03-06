@@ -1,0 +1,42 @@
+#header{
+    float: left;
+    height: auto;
+    width: 100%;
+    background: #6E558A;
+    text-align: center;
+    color: white;
+}
+
+#content {
+    background: #E0C896;
+    margin-left: 150px;
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+#leftcolumn {  /*This is the vertical menu*/
+    float: left;
+    background: #d5abe4bb;
+    width: 150px;
+    margin-left: -100%;
+    position:sticky;
+    height: 1000px;
+}
+
+#menucontent {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+#footer {
+    height: 160px;
+    width: 100%;
+    background: #867199;
+    clear: both;
+    text-align: center;
+    color: white;
+}
