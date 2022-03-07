@@ -47,6 +47,10 @@ a:hover {
     width: 100%;
     background: #867199;
     clear: none;
+    background-image: url(images/firefli.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
     color: white;
     filter: none
@@ -95,4 +99,23 @@ filter:none
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+  }
+
+  #myicons{
+    animation: myAnim 2s ease-in 0s infinite normal both;
+
+  }
+  
+  @keyframes myAnim {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0.2;
+    }
+  
+    100% {
+      opacity: 1;
+    }
   }
